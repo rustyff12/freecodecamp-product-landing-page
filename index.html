@@ -7,12 +7,16 @@
     <title>Landing Page</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/index.css">
+    <!-- Google fonts -->
+   
 </head>
 <body>
     <!-- Header/ Nav -->
     <header id="header">
-        <img id="header-img" src="./images/guitar-store-logo.png" alt="guitar logo">
-        <h1>Guitar Store</h1>
+        <div class="header-img-container">
+          <img id="header-img" src="./images/—Pngtree—neon effect retro video game_4812016.png" alt="">
+          <h1>Retro Games</h1>
+        </div>
         <nav id="nav-bar">
             <ul>
                 <li><a class="nav-link" href="#header">Home</a></li>
@@ -23,23 +27,79 @@
         </nav>
     </header>
 
-    <!-- Email -->
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" placeholder="Enter email address"id="email" name="email" required>
-        <input id="submit" type="submit" value="Submit">
-    </form>
+
+    <!-- Email/ Hero -->
+
+    <section class="hero">
+        <div class="hero-container">
+            <h2>The best place for retro video games</h2>
+            <p>Send us your email address for updates on special deals, giveaways and more!</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" placeholder="Enter email address"id="email" name="email" required>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
 
     <!-- Services -->
     <section id="services">
-        <h2>Our Services</h2>
+        <div class="service-container">
+            <img class="service-image" src="./images/gamepad-svg.svg" alt="">
+            <div class="description">
+                <h2>Consoles</h2>
+                <p>Step into nostalgia with our unparalleled collection of the greatest retro consoles. Whether you're a seasoned gamer or a newcomer to the classics, our extensive inventory spans iconic platforms like NES, Sega Genesis, and more. Immerse yourself in the golden age of gaming with fully restored and tested consoles, delivering an authentic retro experience. Each console is meticulously curated to ensure optimal performance, bringing back the joy of button-mashing and pixelated adventures. Rediscover the magic of retro gaming with our premium selection – a gateway to cherished memories and timeless fun.</p>
+            </div>
+        </div>
+        <div class="service-container">
+            <img class="service-image" src="./images/multiplayer-svg.svg" alt="">
+            <div class="description">
+                <h2>Multiplayer</h2>
+                <p>Immerse yourself in the vibrant world of classic multiplayer gaming with our extensive lineup of retro consoles and games. Experience the thrill of connecting with friends or family through iconic titles like Mario Kart on SNES or Sonic the Hedgehog on Sega Genesis. Our carefully curated collection ensures reliable and fully functional consoles for an authentic multiplayer experience. From cooperative adventures to competitive showdowns, our selection of multiplayer games and consoles guarantees endless hours of shared excitement. Embrace the camaraderie of retro gaming with the best in multiplayer entertainment.</p>
+            </div>
+        </div>
+        <div class="service-container">
+            <img class="service-image" src="./images/portable-console-svg.svg" alt="">
+            <div class="description">
+                <h2>Portable and Hand Held</h2>
+                <p>Embark on a journey of timeless gaming with our diverse range of portable and handheld games. Experience the excitement of classic titles reimagined for on-the-go play, spanning Game Boy classics to Sega Game Gear favorites. Our carefully selected collection ensures a seamless and engaging gaming experience on compact devices. Rekindle the thrill of conquering levels, collecting power-ups, or embarking on epic quests—all in the palm of your hand. Whether you're on a commute, traveling, or simply seeking convenient gaming, our portable and handheld games offer an escape into the captivating worlds of retro gaming without compromising on the excitement.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Video -->
-    <iframe id="video" height="315" width="630" src="https://www.youtube.com/embed/f4NOJ42-BKM&ab_channel=WatchMojo.com" frameborder="0" allowfullscreen></iframe>
+    <section class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LYeNlWBpIAQ?si=-I9oEBje4ZO4uDz2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
     
     <!-- Products -->
     <section id="products">
-        <h2>Products</h2>
+        <div class="products-box">
+            <h3 class="products-box-head">Gameboy Color</h3>
+            <h2>70€</h2>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button class="btn">Select</button>
+        </div>
+        <div class="products-box">
+            <h3 class="products-box-head">SNES</h3>
+            <h2>€50</h2>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button class="btn">Select</button>
+        </div>
+        <div class="products-box">
+            <h3 class="products-box-head">Sega Genisis</h3>
+            <h2>€60</h2>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button class="btn">Select</button>
+        </div>
     </section>
 
     <!-- About -->
